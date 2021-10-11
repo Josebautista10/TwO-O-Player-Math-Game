@@ -54,7 +54,17 @@ class Game
 end
 
       def winner?
-
+        if @player[0].lives == 0
+          puts " ---- GAME OVER ---- "
+          puts "#{@player[1].name} wins with a score of #{@player[0].lives}/3"
+          puts "Try again"
+        elsif
+          puts " ---- GAME OVER ---- "
+          puts "#{@player[0].name} wins with score of #{@player[0].lives}/3"
+          puts "Try again"
+        else
+          next_turn
+        end 
       end
 
       def next_turn
