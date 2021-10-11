@@ -7,8 +7,8 @@
 # It will have a lost_life method which decrements the number of lives
 
 class Players
-  attr_accessor : lives, player_turn
-  attr_reader : name
+  attr_accessor :lives, :player_turn
+  attr_reader :name
 
   def initialize(name) 
   @lives = 3
