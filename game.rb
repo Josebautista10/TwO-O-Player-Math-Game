@@ -68,5 +68,6 @@ end
       end
 
       def next_turn
-        
+        opening_question
+        evaluate_answer
       end
