@@ -6,7 +6,7 @@
 # It will not contain user I/O
 # It will have a lost_life method which decrements the number of lives
 
-class Player
+class Players
   attr_accessor : lives, player_turn
   attr_reader : name
 
