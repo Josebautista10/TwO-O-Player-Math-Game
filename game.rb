@@ -60,7 +60,7 @@ class Game
       def winner?
         if @player1.lives == 0
           puts " ---- GAME OVER ---- "
-          puts "#{@player2.name} wins with a score of #{@player1.lives}/3"
+          puts "#{@player2.name} wins with a score of #{@player2.lives}/3"
           puts "Try again"
         elsif @player2.lives == 0
           puts " ---- GAME OVER ---- "
